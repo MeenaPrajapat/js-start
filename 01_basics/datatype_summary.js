@@ -40,3 +40,23 @@ console.log(typeof myObj);
 console.log(typeof myFunction);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive) (copy is passed), Heap (Non-Primtive) (Reference is passed)
+let myYoutubename = "Meenaprajapat"
+let anothername = myYoutubename
+anothername = "Neelamprajapat"
+console.log(anothername);
+console.log(myYoutubename);
+
+let userOne = {
+    email = "user@google.com",
+    upi = "user@ybl"
+}
+
+let userTwo = userOne
+userTwo.email = "meena@google.com"
+console.log(userTwo.email);
+console.log(userOne.email);  
