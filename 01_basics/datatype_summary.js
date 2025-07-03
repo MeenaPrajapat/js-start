@@ -52,8 +52,8 @@ console.log(anothername);
 console.log(myYoutubename);
 
 let userOne = {
-    email = "user@google.com",
-    upi = "user@ybl"
+    email : "user@google.com",
+    upi : "user@ybl"
 }
 
 let userTwo = userOne
