@@ -52,7 +52,7 @@ num1 = num2 = num3 = 2 + 2
 let gameCounter = 100
 // gameCounter++;
 ++gameCounter;
-console.log(gameCounter);
+console.log(gameCounter)
 
 // link to study
 // https://tc39.es/ecma262/#sec-type-conversion
